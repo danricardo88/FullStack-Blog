@@ -1,0 +1,120 @@
+$lightGreen: #b9e7e7;
+
+.app{
+  display: flex;
+  justify-content: center;
+
+  .container{
+    width: 1027px;
+
+    .link{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    // LOGIIN & REGISTER
+
+    .auth {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: $lightGreen;
+      height: 100vh;
+
+
+      h1{
+        font-size: 20px;
+        color: teal;
+        margin-bottom: 20px;
+      }
+
+      form{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        background: white;
+        width: 200px;
+        gap: 20px;
+
+        input{
+          padding: 10px;
+          border: none;
+          border-bottom: 1px solid gray;
+        }
+
+        button{
+          padding: 10px;
+          border: none;
+          background: teal;
+          cursor: pointer;
+          color: white;
+        }
+
+        p{
+          font-size: 12px;
+          color: red;
+          text-align: center;
+        }
+
+        span{
+          font-size: 12px;
+          text-align: center;
+        }
+
+      }
+    }
+
+
+    // Navbar
+    .navbar{
+      .container{
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo{
+          img{
+            width: 120px;
+          }
+        }
+        .links{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          h6{
+            font-size: 16px;
+            font-weight: 300;
+          }
+
+          span{
+            cursor: pointer;
+          }
+
+          .write{
+            background-color: $lightGreen;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 300;
+            border: 1px solid white
+          }
+
+          .write:hover{
+            // width: 48px;
+            // height: 48px;
+            color: teal;
+            background-color: white;
+            border: 1px solid teal;
+
+          }
+        }
+      }
+    }
+  }
+}
