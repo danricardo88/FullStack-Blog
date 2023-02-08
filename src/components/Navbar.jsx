@@ -11,22 +11,22 @@ const Navbar = () => {
         </div>
         <div className="links">
           <Link className="link" to="/?cat=art">
-            <h6>ART</h6>
+            <h6>Javascript</h6>
           </Link>
           <Link className="link" to="/?cat=science">
-            <h6>SCIENCE</h6>
+            <h6>React.js</h6>
           </Link>
           <Link className="link" to="/?cat=technology">
-            <h6>TECHNOLOGY</h6>
+            <h6>Node.js</h6>
           </Link>
           <Link className="link" to="/?cat=cinema">
-            <h6>CINEMA</h6>
+            <h6>MySQL</h6>
           </Link>
           <Link className="link" to="/?cat=design">
-            <h6>DESIGN</h6>
+            <h6>MongoDB</h6>
           </Link>
           <Link className="link" to="/?cat=food">
-            <h6>FOOD</h6>
+            <h6>Docker</h6>
           </Link>
           <span>John</span>
           <span>Logout</span>

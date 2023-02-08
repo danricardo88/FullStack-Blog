@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import img1 from '../assets/profile.png';
+import img2 from '../assets/20.png';
+import img3 from '../assets/22.png';
+import img4 from '../assets/2.png';
 
 const Home = () => {
   // const [posts, setPosts] = useState([]);
@@ -26,27 +30,27 @@ const Home = () => {
   const posts = [
     {
       id: 1,
-      title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit',
-      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!',
-      img: 'https://images.pexels.com/photos/7008010/pexels-photo-7008010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Feito por: Daniel Ricardo Web Developer Full-Stack',
+      desc: 'Sempre disposto a aprender novas stacks, comunicativo e resiliente. Pratiquei escuta ativa e possuo um espírito vibrante e apaixonado por desafios. Sou eu, pronto para evoluir e crescer junto com vocês.',
+      img: img1,
     },
     {
       id: 2,
-      title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit',
-      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!',
-      img: 'https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Nascido e criado no Rio de Janeiro capital 021',
+      desc: 'Como proprietário de um espírito jovem e animado, eu gosto de transmitir positividade e dinamismo. Eu sou atraído por desafios e a jornada é muito mais divertida quando realizada em equipe. Desistir é uma palavra que realmente não faz parte da minha vida.',
+      img: img3,
     },
     {
       id: 3,
-      title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit',
-      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!',
-      img: 'https://images.pexels.com/photos/4230630/pexels-photo-4230630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Tenho um ponto de vista sobre o mundo bem exótico...',
+      desc: 'Desde pequeno fui criado e educado para respeitar pessoas, idependente de sua raça, cor, tipo biologico, gosto pessoal ou aparência. Respeitando pessoas da mesma forma que gosto que me respeitem. ',
+      img: img2,
     },
     {
       id: 4,
-      title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit',
-      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!',
-      img: 'https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Curiosidade sobre mim ?!',
+      desc: 'Sou pai de uma linda "pinxesa xelêia" ( princesa sereia ) de 2 aninhos, amo ler One Piece, tenho um gosto musical bem aleatório ( muito mesmo kkkk ), amo carros e penso em ter uma oficina por hobby  ',
+      img: img4,
     },
   ];
 

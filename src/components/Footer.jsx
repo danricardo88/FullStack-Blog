@@ -8,7 +8,7 @@ const Footer = () => {
       <span>
         Made with ❤️ and
         {' '}
-        <b>React.js</b>
+        <b>React.js - By danricardo88</b>
       </span>
     </footer>
   );
