@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Fullstack Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de blog desenvolvido por hobby com foco em ser uma aplicação fullstack, contendo tanto o frontend quanto o backend. Ainda está em desenvolvimento e faz uso das seguintes tecnologias:
 
-## Available Scripts
+- React: biblioteca JavaScript para criação de interfaces de usuário
+- Redux: biblioteca JavaScript para gerenciamento de estado da aplicação
+- Node.js: ambiente de execução JavaScript que permite utilizar o JavaScript no backend
+- Express: framework para criação de aplicações web em Node.js
+- MongoDB: banco de dados NoSQL
+- Sass: pré-processador CSS
 
-In the project directory, you can run:
+Além disso, faz uso de diversas outras bibliotecas e ferramentas para auxiliar no desenvolvimento, tais como:
 
-### `npm start`
+- react-quill: editor de texto rico para React
+- emailjs-com: serviço de envio de emails
+- moment: biblioteca JavaScript para manipulação de datas e horários
+- pigeon-maps: biblioteca React para exibição de mapas
+- dompurify: biblioteca JavaScript para sanitização de HTML
+- react-icons: biblioteca React para ícones
+- axios: biblioteca JavaScript para requisições HTTP
+- redux-thunk: middleware Redux para trabalhar com funções assíncronas
+- react-redux: biblioteca React para conexão com o Redux
+- react-router-dom: biblioteca React para navegação entre rotas
+- @redux-devtools/extension: extensão do navegador para desenvolvimento com Redux
+- @testing-library/react: biblioteca para testes em React
+- @testing-library/jest-dom: biblioteca para testes com Jest e DOM
+- @testing-library/user-event: biblioteca para testes com interação do usuário
+- web-vitals: biblioteca para medição de métricas de performance
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto está disponível em https://blogdodan.netlify.app/ para visualização na web e o código fonte pode ser acessado em https://github.com/danricardo88/FullStack-Blog.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como executar o projeto
 
-### `npm test`
+Para executar o projeto em um ambiente de desenvolvimento local, é necessário ter instalado o Node.js e o MongoDB. Após clonar o repositório, é necessário instalar as dependências do projeto com o comando `npm install` na pasta raiz do projeto. Em seguida, é necessário configurar as variáveis de ambiente em um arquivo `.env` seguindo o modelo do arquivo `.env.example`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar o frontend, basta executar o comando `npm start` na pasta client. Para executar o backend, basta executar o comando `npm start` na pasta server. É possível também executar ambos ao mesmo tempo com o comando `npm run dev`.
 
-### `npm run build`
+## Como contribuir
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contribuições são sempre bem-vindas! Caso queira contribuir com o projeto, basta criar uma branch a partir da branch `main`, implementar as alterações e abrir um pull request. Certifique-se de seguir as boas práticas de desenvolvimento e incluir testes para as alterações realizadas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Licença
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a licença MIT.
