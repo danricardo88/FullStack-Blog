@@ -1,4 +1,9 @@
-# Fullstack Blog
+
+<img src="./screen.png" />
+
+<br>
+
+<h1 align="center"> Fullstack Blog </h1>
 
 Este é um projeto de blog desenvolvido por hobby com foco em ser uma aplicação fullstack, contendo tanto o frontend quanto o backend. Ainda está em desenvolvimento e faz uso das seguintes tecnologias:
 
